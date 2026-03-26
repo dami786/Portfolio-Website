@@ -115,6 +115,15 @@ const WhatIDo = () => {
                 <div className="what-tags">Bootstrap</div>
                 <div className="what-tags">Postman</div>
               </div>
+              <h5>AI skills</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">Full Stack Development</div>
+                <div className="what-tags">APP Development</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">Freelauncin</div>
+                <div className="what-tags">3js</div>
+                <div className="what-tags">Ecommerce</div>
+              </div>
               <div className="what-arrow"></div>
             </div>
           </div>
@@ -156,6 +165,16 @@ const WhatIDo = () => {
                 <div className="what-tags">Bug Fixing</div>
                 <div className="what-tags">Deployment</div>
                 <div className="what-tags">Maintenance</div>
+              </div>
+              <h5>AI skills</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">AI Automation</div>
+                <div className="what-tags">OpenAI API</div>
+                <div className="what-tags">AI Chatbots</div>
+                <div className="what-tags">RAG Basics</div>
+                <div className="what-tags">Workflow Integration</div>
+                <div className="what-tags">Cursor AI Development</div>
               </div>
               <div className="what-arrow"></div>
             </div>

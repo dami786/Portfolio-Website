@@ -48,6 +48,7 @@
   position: relative;
   padding: 50px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .what-noTouch:hover,
@@ -206,7 +207,27 @@
 }
 .what-content-in {
   height: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-right: 6px;
+}
+.what-noTouch:hover .what-content-in,
+.what-content-active .what-content-in {
+  overflow-y: auto;
+}
+.what-content-in::-webkit-scrollbar {
+  width: 5px;
+}
+.what-content-in::-webkit-scrollbar-track {
+  background: transparent;
+}
+.what-content-in::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+}
+.what-content-in {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
 }
 .what-content-in h5 {
   font-weight: 300;
