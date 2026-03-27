@@ -6,11 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          My name is Dameer Ijaz and I am a Full Stack Developer with 2 years of
-          experience. I build responsive, modern, and user-friendly websites
-          using current web technologies. I have created multiple projects in
-          Cursor, and this portfolio showcases my practical development skills,
-          project workflow, and problem-solving approach.
+        I’m Dameer Ijaz, a passionate Full Stack Web Developer specializing in React.js and Node.js. I build real-world projects that combine clean code, intuitive design, and seamless user experiences. I also explore AI-driven solutions to make apps smarter and more efficient. Always learning, always building—my goal is to turn ideas into functional, impactful digital experiences
         </p>
       </div>
     </div>
